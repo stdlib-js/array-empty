@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-empty",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create an uninitialized array having a specified length.",
   "license": "Apache-2.0",
   "author": {
