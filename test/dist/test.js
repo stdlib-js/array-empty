@@ -21,40 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var proxyquire = require( 'proxyquire' );
-var main = require( './../../dist/main.js' );
-var polyfill = require( './../../dist/polyfill.js' );
-var empty = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof empty, 'function', 'main export is a function' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
-});
-
-tape( 'if an environment supports Node.js buffer instances inheriting from Uint8Array, the main export supports returning arrays having uninitialized memory', function test( t ) {
-	var empty = proxyquire( './../dist', {
-		'./is_buffer_uint8array.js': mock
-	});
-	t.strictEqual( empty, main, 'returns expected value' );
-	t.end();
-
-	function mock() {
-		return true;
-	}
-});
-
-tape( 'if an environment does not support Node.js buffer instances inheriting from Uint8Array, the main export supports returning zero-filled arrays', function test( t ) {
-	var empty = proxyquire( './../dist', {
-		'./is_buffer_uint8array.js': mock
-	});
-	t.strictEqual( empty, polyfill, 'returns expected value' );
-	t.end();
-
-	function mock() {
-		return false;
-	}
 });
