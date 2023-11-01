@@ -45,7 +45,7 @@
     "@stdlib/assert-is-uint8array": "^0.1.1",
     "@stdlib/buffer-alloc-unsafe": "^0.1.0",
     "@stdlib/ndarray-base-bytes-per-element": "^0.1.0",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
