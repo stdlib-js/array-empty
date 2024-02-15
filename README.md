@@ -45,32 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-empty
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var empty = require( '@stdlib/array-empty' );
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@esm/index.mjs';
 ```
 
 #### empty( length\[, dtype] )
@@ -130,9 +112,14 @@ var arr = empty( 2, 'int32' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var dtypes = require( '@stdlib/array-dtypes' );
-var empty = require( '@stdlib/array-empty' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@esm/index.mjs';
 
 // Get a list of array data types:
 var dt = dtypes();
@@ -144,6 +131,10 @@ for ( i = 0; i < dt.length; i++ ) {
     arr = empty( 4, dt[ i ] );
     console.log( arr );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -185,7 +176,7 @@ for ( i = 0; i < dt.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -252,15 +243,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/empty-like]: https://github.com/stdlib-js/array-empty-like
+[@stdlib/array/empty-like]: https://github.com/stdlib-js/array-empty-like/tree/esm
 
-[@stdlib/array/full]: https://github.com/stdlib-js/array-full
+[@stdlib/array/full]: https://github.com/stdlib-js/array-full/tree/esm
 
-[@stdlib/array/ones]: https://github.com/stdlib-js/array-ones
+[@stdlib/array/ones]: https://github.com/stdlib-js/array-ones/tree/esm
 
-[@stdlib/array/zeros]: https://github.com/stdlib-js/array-zeros
+[@stdlib/array/zeros]: https://github.com/stdlib-js/array-zeros/tree/esm
 
-[@stdlib/ndarray/empty]: https://github.com/stdlib-js/ndarray-empty
+[@stdlib/ndarray/empty]: https://github.com/stdlib-js/ndarray-empty/tree/esm
 
 <!-- </related-links> -->
 
