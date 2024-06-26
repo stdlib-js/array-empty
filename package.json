@@ -51,6 +51,7 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
+    "@stdlib/array-bool": "^0.0.1",
     "@stdlib/array-complex128": "^0.2.1",
     "@stdlib/array-complex64": "^0.2.1",
     "@stdlib/array-dtypes": "^0.2.1",
@@ -68,6 +69,7 @@
     "@stdlib/assert-is-typed-array": "^0.2.1",
     "@stdlib/assert-is-typed-array-like": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
+    "@stdlib/strided-base-reinterpret-boolean": "^0.0.1",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.1",
     "@stdlib/strided-base-reinterpret-complex64": "^0.2.0",
     "proxyquire": "^2.0.0",
@@ -142,6 +144,7 @@
     "short",
     "long",
     "generic",
+    "bool",
     "empty"
   ],
   "funding": {
