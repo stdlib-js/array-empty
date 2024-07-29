@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-empty/tags). For example,
+
+```javascript
 import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@v0.3.0-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ var arr = empty( 2, 'int32' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
-import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@v0.3.0-deno/mod.js';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@deno/mod.js';
 
 // Get a list of array data types:
 var dt = dtypes();
