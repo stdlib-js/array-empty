@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@deno/mod.js';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@v0.3.0-deno/mod.js';
 ```
 
 #### empty( length\[, dtype] )
@@ -99,7 +99,7 @@ var arr = empty( 2, 'int32' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
-import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@deno/mod.js';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@v0.3.0-deno/mod.js';
 
 // Get a list of array data types:
 var dt = dtypes();
