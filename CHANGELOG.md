@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-24)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6564170`](https://github.com/stdlib-js/stdlib/commit/6564170f3bf0724a927a23b64f3c624294978182) - **bench:** refactor to use string interpolation in `array/empty` [(#10439)](https://github.com/stdlib-js/stdlib/pull/10439) _(by Aman Singh)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Aman Singh
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
