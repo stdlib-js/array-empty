@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-zeros": "^0.2.3",
+    "@stdlib/array-bool": "^0.1.2",
     "@stdlib/array-defaults": "^0.4.1",
     "@stdlib/array-typed-ctors": "^0.3.1",
     "@stdlib/array-zeros": "^0.2.3",
@@ -51,7 +52,6 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-bool": "^0.1.2",
     "@stdlib/array-complex128": "^0.3.2",
     "@stdlib/array-complex64": "^0.3.2",
     "@stdlib/array-dtypes": "^0.4.1",
