@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-09)
+## Unreleased (2026-08-12)
+
+<section class="features">
+
+### Features
+
+-   [`29242e0`](https://github.com/stdlib-js/stdlib/commit/29242e0a53ae80a91a7d0b780c9a5e8b59f108cc) - add float16 dtype support to `array/empty` [(#14166)](https://github.com/stdlib-js/stdlib/pull/14166)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -22,6 +32,7 @@
 
 <details>
 
+-   [`29242e0`](https://github.com/stdlib-js/stdlib/commit/29242e0a53ae80a91a7d0b780c9a5e8b59f108cc) - **feat:** add float16 dtype support to `array/empty` [(#14166)](https://github.com/stdlib-js/stdlib/pull/14166) _(by Samarth Kolarkar, Athan Reines, Gururaj Gurram)_
 -   [`ae32f26`](https://github.com/stdlib-js/stdlib/commit/ae32f26441101c24f0faf1a04ecceb3e66387578) - **fix:** ensure support for boolean arrays in polyfill _(by Athan Reines)_
 -   [`6564170`](https://github.com/stdlib-js/stdlib/commit/6564170f3bf0724a927a23b64f3c624294978182) - **bench:** refactor to use string interpolation in `array/empty` [(#10439)](https://github.com/stdlib-js/stdlib/pull/10439) _(by Aman Singh)_
 
@@ -35,10 +46,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Singh
 -   Athan Reines
+-   Gururaj Gurram
+-   Samarth Kolarkar
 
 </section>
 
